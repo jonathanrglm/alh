@@ -1,25 +1,55 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState, useRef } from 'react';
+import Header from './symbols/header';
+import Home from './screens/Home';
+import FirstPart from './screens/FirstPart';
+import SecondPart from './screens/SecondPart';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
+
+  let audioTune = new Audio(`${process.env.PUBLIC_URL}/coin.mp3`)
+  audioTune.setAttribute('crossorigin', 'anonymous')
+
+
+  useEffect(() => {
+    audioTune.load();
+    audioTune.loop = true;
+  }, [])
+
+  const playMusic = () => {
+    audioTune.play().then(res => {
+
+    }).catch(err => {
+      console.log("err", err)
+    })
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={styles.root}>
+      <Header />
+      <Router forceRefresh={false} >
+        <Switch >
+          <Route exact path="/">
+            <Home onPress={playMusic} />
+          </Route>
+          <Route path="/firstPart" component={FirstPart} />
+          <Route path="/secondPart" component={SecondPart}/>
+        </Switch>
+      </Router>
     </div>
-  );
+  )
+}
+
+const styles = {
+  root: {
+    backgroundColor: 'black'
+  }
 }
 
 export default App;
