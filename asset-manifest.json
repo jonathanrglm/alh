@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/alh/static/css/main.dd3f55c1.chunk.css",
-    "main.js": "/alh/static/js/main.40819087.chunk.js",
-    "main.js.map": "/alh/static/js/main.40819087.chunk.js.map",
+    "main.js": "/alh/static/js/main.5ced9234.chunk.js",
+    "main.js.map": "/alh/static/js/main.5ced9234.chunk.js.map",
     "runtime-main.js": "/alh/static/js/runtime-main.06bd07de.js",
     "runtime-main.js.map": "/alh/static/js/runtime-main.06bd07de.js.map",
     "static/js/2.53443c49.chunk.js": "/alh/static/js/2.53443c49.chunk.js",
@@ -15,11 +15,11 @@
     "static/media/App.css": "/alh/static/media/KaushanScript-Regular.a50ad99d.ttf",
     "static/media/arrow.f97173ec.png": "/alh/static/media/arrow.f97173ec.png",
     "static/media/baby.94903421.png": "/alh/static/media/baby.94903421.png",
-    "static/media/child.ccc83bb0.png": "/alh/static/media/child.ccc83bb0.png",
+    "static/media/child.73292b89.png": "/alh/static/media/child.73292b89.png",
     "static/media/crying.20b92452.png": "/alh/static/media/crying.20b92452.png",
     "static/media/emoThink.c7785b6d.png": "/alh/static/media/emoThink.c7785b6d.png",
     "static/media/facebook.4f037d96.png": "/alh/static/media/facebook.4f037d96.png",
-    "static/media/flowers.060614d5.png": "/alh/static/media/flowers.060614d5.png",
+    "static/media/flowers.b02ec685.png": "/alh/static/media/flowers.b02ec685.png",
     "static/media/handsome.c3f59eac.png": "/alh/static/media/handsome.c3f59eac.png",
     "static/media/heartbeat.259bc138.png": "/alh/static/media/heartbeat.259bc138.png",
     "static/media/hello.c2b6fd70.png": "/alh/static/media/hello.c2b6fd70.png",
@@ -36,7 +36,7 @@
     "static/media/marco.12c94a9f.png": "/alh/static/media/marco.12c94a9f.png",
     "static/media/sheep.936021c5.png": "/alh/static/media/sheep.936021c5.png",
     "static/media/smile.d4c40b7b.png": "/alh/static/media/smile.d4c40b7b.png",
-    "static/media/teddy.34585ec3.png": "/alh/static/media/teddy.34585ec3.png",
+    "static/media/teddy.1a04883f.png": "/alh/static/media/teddy.1a04883f.png",
     "static/media/virus.610c44d2.png": "/alh/static/media/virus.610c44d2.png",
     "static/media/whatsapp.1dd8ca27.png": "/alh/static/media/whatsapp.1dd8ca27.png"
   },
@@ -44,6 +44,6 @@
     "static/js/runtime-main.06bd07de.js",
     "static/js/2.53443c49.chunk.js",
     "static/css/main.dd3f55c1.chunk.css",
-    "static/js/main.40819087.chunk.js"
+    "static/js/main.5ced9234.chunk.js"
   ]
 }
