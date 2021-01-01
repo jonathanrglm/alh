@@ -49,7 +49,7 @@ const SecondPart = () => {
 
             <div className="row mb-4">
                 <div className="col-sm-4">
-                    <img src={images.child} alt="" className="img-fluid" />
+                    <img src={images.child} alt="" className="img-fluid" style={{ display: 'flex', justifyContent: 'center' }} />
                 </div>
                 <div className="col-sm-8">
                     Y bueno dejando de lado las cosas tristes, pues que creen… así es, hubo otra, otra salida con ella pueden creerlo… a su pinshe mare estaba extasiado, estaba súper emocionado, estaba dando brinquitos de emoción :D, pero no le digan a ella que luego va a pensar que soy muy infantil… Aunque bueno creo que ya lo sabe jaja, pero bueno retomando la noticia, así es volví a tener una nueva oportunidad de verla, de igual manera esta vez fuimos al cine en esta ocasión fuimos a ver la película mentada de padre, muy buena película he de decir.
@@ -62,7 +62,7 @@ const SecondPart = () => {
                         Pero como les decía, ese día recuerdo que quedamos de vernos afuera de Forever 21 creo que es una tienda de ropa, recuerdo que llegue a la plaza donde está ubicada esa tienda, mas sin embargo no sabía con exactitud en que parte estaba ubicada dicha tienda, por lo que decidí preguntarle a una demostradora en un módulo y me dijo que estaba subiendo las escaleras, le agradecí y me dirigí hacia allí, pero no la vi, me pareció extraño por lo que le marque y al parecer no acordamos muy bien el lugar ya que ella se refería al letrero que está afuera de la plaza que dice Forever 21 mientras que yo pensé que hablábamos de vernos afuera de esa tienda, no en la entrada de la plaza debajo del letrero que dice el nombre de la tienda jaja.
                         </p>
                     <p>
-                        Y bueno posterior a ponernos de acuerdo me dirigí a buscarla y a medio camino nos encontramos, en cuanto la vi lo primero que hicimos fue abrazarnos, fue mágico. También recuerdo que ese día le regale un peluche algo pequeño, algo no muy llamativo, algo que nadie se diera cuenta a simple vista de lo que llevaba xD, bueno luego de vernos y saludarnos nos dirigimos a ver la película y al finalizar la misma llego el momento triste del día, acompañarla a tomar su camión para finalizar una nueva y mágica historia que narrar.
+                        Posterior a ponernos de acuerdo y todo, me dirigí a buscarla y a medio camino nos encontramos, en cuanto la vi lo primero que hicimos fue abrazarnos, fue mágico. También recuerdo que ese día le regale un peluche algo pequeño, algo no muy llamativo, algo que nadie se diera cuenta a simple vista de lo que llevaba xD, bueno luego de vernos y saludarnos nos dirigimos a ver la película y al finalizar la misma llego el momento triste del día, acompañarla a tomar su camión para finalizar una nueva y mágica historia que narrar.
                         </p>
                 </div>
                 <div className="col-sm-5">
@@ -83,13 +83,13 @@ const SecondPart = () => {
                 <div className="col-sm-8">
                     Continuando con lo que nos truje les voy a contar una nueva anécdota, esta fue la más reciente y que nos tocó vivir con las nuevas normas de convivencia, portar el cubre bocas en todo momento, siendo sincero fue algo triste porque como saben algo que me encanta de ella además de su inteligencia, su forma de ser, de pensar, de actuar, lo que más me encanta de ella es su belleza, el hermoso rostro que tiene esculpido por los mismos dioses del olimpo, sus ojos tan bellos, tan brillantes como la luna, sus labios tan lindos, tan bien definidos, tan… WOW no tengo forma de poder completar el placer que siento al ver su rostro, pero como mencione previamente el uso del cubre bocas era obligatorio, debíamos portarlo en todo momento, por lo que me fue imposible contemplarla como me hubiera gustado hacerlo. Pero bueno lo importante es que logre verla, logre convivir un nuevo día con ella.
                 </div>
-                <div className="col-sm-4">
+                <div className="col-sm-4" style={{ display: 'flex', justifyContent: 'center' }}>
                     <img src={images.img4} alt="" className="img-fluid img-thumbnail" />
                 </div>
             </div>
 
             <div className="row mb-4">
-                <div className="col-sm-5">
+                <div className="col-sm-5" style={{ display: 'flex', justifyContent: 'center' }}>
                     <img src={images.flowers} alt="" className="img-fluid" />
                 </div>
                 <div className="col-sm-7">
@@ -104,7 +104,7 @@ const SecondPart = () => {
 
             <div className="row p-0 m-0 mb-4">
                 <div className="col-md-12 col-lg-12 divIntro">
-                    Y bueno hasta aquí me reporte Joaquín volvemos al estudio, ha! se crean jaja neee ya poniéndonos serios y para finalizar con esta segunda parte debo de decir que para mi, cada momento que he pasado con ella han sido de lo más bonito, no tengo una forma de expresar completamente la sensación que siento al pasar el rato con ella, pero de lo que si estoy seguro es que cada uno de estos recuerdos siempre los llevare guardados en el corazón ya que son momentos que me han hecho muy feliz. Y realmente le agradezco de todo corazón que me siga soportando, ya que a pesar de que ha habido momentos en los que la he hecho enojar ella sigue presente.
+                    Y bueno hasta aquí me reporte Joaquín, volvemos al estudio. Ha! se crean, jaja neee ya poniéndonos serios y para finalizar con esta segunda parte, debo de decir que para mi, cada momento que he pasado con ella han sido de lo más bonito, no tengo una forma de expresar completamente la sensación que siento al pasar el rato con ella, pero de lo que si estoy seguro es que cada uno de estos recuerdos siempre los llevare guardados en el corazón ya que son momentos que me han hecho muy feliz. Y realmente le agradezco de todo corazón que me siga soportando, ya que a pesar de que ha habido momentos en los que la he hecho enojar ella sigue presente.
                 </div>
             </div>
 

@@ -4,8 +4,9 @@ import Header from './symbols/header';
 import Home from './screens/Home';
 import FirstPart from './screens/FirstPart';
 import SecondPart from './screens/SecondPart';
+import Passto from './screens/Passto';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
   Link
@@ -33,15 +34,13 @@ function App() {
   return (
     <div style={styles.root}>
       <Header />
-      <Router forceRefresh={false} >
-        <Switch >
-          <Route exact path="/">
-            <Home onPress={playMusic} />
-          </Route>
-          <Route path="/firstPart" component={FirstPart} />
-          <Route path="/secondPart" component={SecondPart}/>
-        </Switch>
-      </Router>
+      <HashRouter basename="/">
+        <Route exact path="/">
+          <Home onPress={playMusic} />
+        </Route>
+        <Route path="/firstPart" component={FirstPart} />
+        <Route path="/secondPart" component={SecondPart} />
+      </HashRouter>
     </div>
   )
 }
